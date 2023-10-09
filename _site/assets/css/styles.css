@@ -276,15 +276,15 @@ table td { border: 1px solid #e8e8e8; }
 
 html { scroll-behavior: smooth; }
 
-body { font-family: 'Noto Sans', sans-serif; }
+body { font-family: 'Assistant', 'Outfit'; }
 
 .wrapper { max-width: calc(940px - (30px * 2)); }
 
-h1 { font-weight: bold; font-size: 40px; margin-bottom: 0px; margin-top: 20px; }
+h1 { font-weight: bold; font-size: 40px; margin-bottom: 10px; margin-top: 20px; }
 
 hr { margin-top: 32px; margin-bottom: 32px; background-color: #ccc; border: 0px; height: 1px; }
 
-h4 { color: #666; font-size: 28px; margin-bottom: 20px; }
+h4 { color: #666; font-size: 28px; margin-bottom: 30px; }
 
 h2 { font-size: 24px; margin-bottom: 20px; color: #333; }
 
@@ -348,7 +348,9 @@ pre { display: block; font-size: 14px; color: #333; word-break: break-all; word-
 
 .button-disabled:hover { text-decoration: none; color: #fff; }
 
-.sys-name { font-variant: small-caps; font-weight: bold; color: #555555; }
+.sys-name { font-family: "Outfit"; font-weight: bold; color: #6B48FF; }
+
+.highlight { font-family: "Outfit"; font-weight: bold; color: #000000; }
 
 strong { font-weight: 500; }
 

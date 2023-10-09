@@ -1,12 +1,11 @@
-I"-<p><span class="sys-name">EvalLM</span> ⚗️ is an interactive system that aids prompt designers in iterating on <strong>prompts</strong> by evaluating and comparing generated outputs on user-defined <strong>criteria</strong>. With the aid of an <strong>LLM-based evaluation assistant</strong>, the user can iteratively evolve <strong>criteria+prompts</strong> to distinguish more specific qualities in outputs and then improve the quality of outputs on these aspects.</p>
+I"�<p><span class="sys-name">🔮 GenQuery</span> is an <span class="highlight">interactive visual search system</span> that allows the users to concretize the abstract text query <span class="sys-name">[a]</span>, express search intent through visuals <span class="sys-name">[b]</span>, and diversify their search intent based on the search history <span class="sys-name">[c]</span>. Through the three main features, users can express their visual search intent easily and accurately and explore a more diverse and creative visual search space.
+<br /></p>
 
-<p><br /></p>
-
-<p class="sys-img"><img src="/assets/img/animation.gif" alt="Animation of the overall workflow of EvalLM where users sample inputs from a dataset, generate outputs from each input using two different prompts, and then comparatively evaluate these outputs on user-defined criteria." /></p>
+<p class="sys-img"><img src="/assets/img/teaser.png" alt="Three main features of GenQuery: (1) Query concretization, (2) Image-based image modification, and (3) Keyword-based image modification feature. Query concretization concretizes the user's vague text query for the text-based search. Image-based image modification allows the user to select the area in an image (red dot line above) and to change the area of the image based on the reference image (purple mountain image). Keyword-based modification allows the user to change the selected area of an image (red dot line below) based on the keywords suggested from the user's search history. Both modification features' output could be utilized as an image-based search input and the results are changed due to the image modifications." /></p>
 
 <hr />
 
-<h2 id="interface">Interface</h2>
+<h2 id="genquery-interface"><span class="sys-name">GenQuery Interface</span></h2>
 
 <p>The main screen of the interface consists of three panels.</p>
 
@@ -22,7 +21,7 @@
 
 <h3 id="criteria"><span id="criteria">Criteria</span></h3>
 
-<p class="text-left"><span class="sys-name">EvalLM</span> allows users to evaluate outputs on their own criteria specific to their application and/or context. 
+<p class="text-left"><span class="sys-name">EvalLM</span> allows users to evaluate outputs on their own criteria specific to their application and/or context.
 <br /><br />
 To define a criteria, the user simply provides the criteria with a <strong>name</strong> (A) and <strong>description</strong> (B) in natural language.
 <br /><br />
@@ -55,14 +54,15 @@ To assist users in creating more effective and helpful criteria, the system auto
 <hr />
 
 <h2 id="bibtex">Bibtex</h2>
+
 <pre>
-@inproceedings{kim2023evallm,
-title={EvalLM: Interactive Evaluation of Large Language Model Prompts on User-Defined Criteria}, 
-author={Tae Soo Kim and Yoonjoo Lee and Jamin Shin and Young-Ho Kim and Juho Kim},
-year={2023},
-eprint={2309.13633},
-archivePrefix={arXiv},
-primaryClass={cs.HC}
+@inproceedings{son2023genquery,
+      title={GenQuery: Supporting Expressive Visual Search with Generative Models}, 
+      author={Kihoon Son and DaEun Choi and Tae Soo Kim and Young-Ho Kim and Juho Kim},
+      year={2023},
+      eprint={2310.01287},
+      archivePrefix={arXiv},
+      primaryClass={cs.HC}
 }
 </pre>
 

@@ -18,14 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: EvalLM
+title: GenQuery
 theme: minima
-description: "Interactive Evaluation of Large Language Model Prompts on User-Defined Criteria"
+description: "Supporting Expressive Visual Search with Generative Models"
 
-syscolor: "#555555"
-sysfont: Inter
+syscolor: "#6B48FF"
+sysfont: Assistant
 video: https://www.youtube-nocookie.com/embed/7hvTnhiCO7Y?si=6I9aqVnatM8VoaJd
-paper: https://arxiv.org/abs/2309.13633
+paper: https://arxiv.org/abs/2310.01287
 
 plugins:
   - jekyll-feed
