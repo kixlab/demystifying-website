@@ -1,0 +1,76 @@
+I"-<p><span class="sys-name">EvalLM</span> ⚗️ is an interactive system that aids prompt designers in iterating on <strong>prompts</strong> by evaluating and comparing generated outputs on user-defined <strong>criteria</strong>. With the aid of an <strong>LLM-based evaluation assistant</strong>, the user can iteratively evolve <strong>criteria+prompts</strong> to distinguish more specific qualities in outputs and then improve the quality of outputs on these aspects.</p>
+
+<p><br /></p>
+
+<p class="sys-img"><img src="/assets/img/animation.gif" alt="Animation of the overall workflow of EvalLM where users sample inputs from a dataset, generate outputs from each input using two different prompts, and then comparatively evaluate these outputs on user-defined criteria." /></p>
+
+<hr />
+
+<h2 id="interface">Interface</h2>
+
+<p>The main screen of the interface consists of three panels.</p>
+
+<p class="sys-img"><img src="/assets/img/interface.png" alt="Main screen of EvalLM shows three panels. The generation panel shows text boxes for the prompt and task instruction, and buttons for input sampling. The evaluation panel shows text boxes for the criteria, buttons for evaluating, and stacked bar charts for the evaluation results." /></p>
+
+<p><b>Generation Panel</b>: To generate outputs, the user defines their overall <strong>task instruction</strong> (A), two <strong>prompts</strong> they want to compare (B), and then <strong>samples inputs</strong> from a dataset (C) which will be used to test the prompts.</p>
+
+<p><strong>Evaluation Panel</strong>: To evaluate outputs, the user defines a set of evaluation <strong><a href="#criteria" target="_self">criteria</a></strong> (D). Then, after evaluating, they can verify the overall <em>evaluation</em> performance of each prompt (E) or, if they created a validation set, <em>validate</em> how automatic evaluations align with ground-truth evaluations (F).</p>
+
+<p><strong>Data Panel</strong>: This panel shows <strong><a href="#datarow" target="_self">data rows</a></strong> containing inputs, outputs, and evaluation results.</p>
+
+<p><br /></p>
+
+<h3 id="criteria"><span id="criteria">Criteria</span></h3>
+
+<p class="text-left"><span class="sys-name">EvalLM</span> allows users to evaluate outputs on their own criteria specific to their application and/or context. 
+<br /><br />
+To define a criteria, the user simply provides the criteria with a <strong>name</strong> (A) and <strong>description</strong> (B) in natural language.
+<br /><br />
+To assist users in creating more effective and helpful criteria, the system automatically <strong>reviews</strong> their criteria (C) and provides <strong>suggestions</strong> (D) on how the criteria can be <em>refined</em>, <em>merged</em> and <em>split</em>.</p>
+
+<p class="img-right"><img src="/assets/img/criteria.png" alt="Criteria are represented as a set of text boxes that contain the name and description of the criteria. Suggested revisions are shown below the criteria." /></p>
+
+<p><br /></p>
+
+<h3 id="data-row"><span id="datarow">Data Row</span></h3>
+
+<p class="sys-img"><img src="/assets/img/datarow.png" alt="Data Rows in the interface display inputs, output pairs, and evaluation results. Clicking on evaluation results opens a panel that shows the explanation for that evaluation underneath the row." /></p>
+
+<p>For each sampled <strong>input</strong> (A), the interface presents the <strong>outputs</strong> generated from each prompt side-by-side (B) and the <strong>evaluation results</strong> for each criteria next to the outputs (C). For each criteria, the evaluation results show which prompt produced the output that better satisfied that criteria.</p>
+
+<p>If the user wants to see more details, they can click on one of these evaluations to see the assistant’s <strong>explanation</strong> (D). To help the user match the explanation and outputs, the system also <strong>highlights</strong> spans from the outputs that were considered to be important when evaluating the criteria (E).</p>
+
+<p>If the user selected to evaluate outputs on multiple trials, they can see the evaluations for <strong>other trials</strong> through the carousel (F).</p>
+
+<hr />
+
+<h2 id="video-demo">Video Demo</h2>
+
+<p>See <span class="sys-name">EvalLM</span> in action in this Video Demo.</p>
+
+<div class="video-wrapper">
+  <iframe src="https://www.youtube-nocookie.com/embed/7hvTnhiCO7Y?si=6I9aqVnatM8VoaJd&amp;color=white&amp;rel=0&amp;modestlogo=1" id="yt-video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+
+<hr />
+
+<h2 id="bibtex">Bibtex</h2>
+<pre>
+@inproceedings{kim2023evallm,
+title={EvalLM: Interactive Evaluation of Large Language Model Prompts on User-Defined Criteria}, 
+author={Tae Soo Kim and Yoonjoo Lee and Jamin Shin and Young-Ho Kim and Juho Kim},
+year={2023},
+eprint={2309.13633},
+archivePrefix={arXiv},
+primaryClass={cs.HC}
+}
+</pre>
+
+<hr />
+
+<p class="logos"><a href="https://kixlab.org"><img src="/assets/img/kixlab_logo.png" alt="Logo of KIXLAB" /></a>
+<a href="https://kaist.ac.kr"><img src="/assets/img/kaist_logo.png" alt="Logo of KAIST" /></a>
+<a href="https://www.facebook.com/NAVERAILAB"><img src="/assets/img/naver_logo.png" alt="Logo of NAVER" /></a></p>
+
+<p class="center acknowledgement">This research was supported by the <strong>KAIST-NAVER Hypercreative AI Center</strong>.</p>
+:ET

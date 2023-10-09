@@ -1,15 +1,15 @@
+- name: Kihoon Son
+  affiliation: KAIST
+  website: https://kihoonson.com
+  img: kihoon.jpeg
+- name: DaEun Choi
+  affiliation: KAIST
+  website: https://cheddarchoi.github.io
+  img: daeun.jpeg
 - name: Tae Soo Kim
   affiliation: KAIST
   website: https://taesookim.com
   img: taesoo.jpeg
-- name: Yoonjoo Lee
-  affiliation: KAIST
-  website: https://yoonjoolee.com
-  img: yoonjoo.jpeg
-- name: Jamin Shin
-  affiliation: NAVER AI Lab
-  website: https://www.jayshin.xyz/
-  img: jamin.jpg
 - name: Young-Ho Kim
   affiliation: NAVER AI Lab
   website: http://younghokim.net/
