@@ -25,12 +25,9 @@ Beyond these basic features, <span class="sys-name">GenQuery</span> supports **<
 
 Our formative study findings reveal that the visual search process is inefficient due to the user's vague text query at the initial text-based search. To address this, we propose a <span class="sys-name">Query Concretization</span> interaction using LLM prompting in the visual search process.
 
-{% if site.video %}
-
 <div class="video-wrapper">
   <iframe src="https://www.youtube.com/embed/8AhXwrU3WS4?si=tdU7Q55_YXL3ChDY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
-{% endif %}
 
 <br/>
 
@@ -38,12 +35,9 @@ Our formative study findings reveal that the visual search process is inefficien
 
 When users had concrete target images they wanted to look for in their minds, they wanted to use image modality to edit the following search queries in the image-based search. To support the user in finding a more intent-aligned search result, we propose <span class="sys-name">Image-based Image Modification</span> for the following visual search query.
 
-{% if site.video %}
-
 <div class="video-wrapper">
   <iframe src="https://www.youtube.com/embed/N-F3DsbE1fI?si=-7gaKdnObBQ1g-jH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
-{% endif %}
 
 <br/>
 
@@ -51,12 +45,9 @@ When users had concrete target images they wanted to look for in their minds, th
 
 One of the essential aspects of visual search is finding diversified and unexpected ideas as well as searching intent-aligned images. Our formative findings identified that the users tried to use text modality when they wanted to see more diversified and different images. Thus, we propose <span class="sys-name">Text-based Image Modification</span> interaction to help the divergent visual search phase.
 
-{% if site.video %}
-
 <div class="video-wrapper">
   <iframe src="https://www.youtube.com/embed/zJTqnCh8d2w?si=-vIMSjUHxgH-o6I_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
-{% endif %}
 
 ---
 
