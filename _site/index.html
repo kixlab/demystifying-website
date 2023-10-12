@@ -12,11 +12,26 @@
     <link href="https://fonts.googleapis.com/css?family=Outfit" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/assets/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/assets/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/assets/favicon/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+    <link rel="manifest" href="/assets/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -145,60 +160,42 @@
     </div>
     <div class="wrapper">
       <hr/>
-      <p><span class="sys-name">🔮 GenQuery</span> is an <span class="highlight">interactive visual search system</span> that allows the users to concretize the abstract text query <span class="sys-name">[a]</span>, express search intent through visuals <span class="sys-name">[b]</span>, and diversify their search intent based on the search history <span class="sys-name">[c]</span>. Through the three main features, users can express their visual search intent easily and accurately and explore a more diverse and creative visual search space.
+      <p><span class="sys-name">🔮 GenQuery</span> is an <span class="highlight">interactive visual search system</span> that allows the users to concretize the abstract text query <span class="highlight">[a]</span>, express search intent through visuals <span class="highlight">[b]</span>, and diversify their search intent based on the search history <span class="highlight">[c]</span>. Through the three main features, users can express their visual search intent easily and accurately and explore a more diverse and creative visual search space.
 <br /></p>
 
 <p class="sys-img"><img src="/assets/img/teaser.png" alt="Three main features of GenQuery: (1) Query concretization, (2) Image-based image modification, and (3) Keyword-based image modification feature. Query concretization concretizes the user's vague text query for the text-based search. Image-based image modification allows the user to select the area in an image (red dot line above) and to change the area of the image based on the reference image (purple mountain image). Keyword-based modification allows the user to change the selected area of an image (red dot line below) based on the keywords suggested from the user's search history. Both modification features' output could be utilized as an image-based search input and the results are changed due to the image modifications." /></p>
 
 <hr />
 
-<h2 id="genquery-interface"><span class="sys-name">GenQuery Interface</span></h2>
+<h2 id="interface"><span class="sys-name">Interface</span></h2>
 
-<p>The main screen of the interface consists of three panels.</p>
+<p class="sys-img"><img src="/assets/img/interface.png" alt="Interface of GenQuery. GenQuery shows the image search results as a gallery form. (a) Text prompt input box for text-based search: User can input a text description for the desired image here; (b) Clickable image for image-based search: An image in the gallery is clickable to provoke the image-based search. When the image is clicked, GenQuery shows similar images to the clicked one at the bottom of the gallery; (c) Like button: The user can click the like button to save the design into the side panel; (d) Generation button: To edit one of the searched images for generatin a new input, the user can click the marble emoji left top of image card. When the user clicks this button, the generation panel pops out below; (e) Show more button: This button is clicked when the user wants to see more search results." /></p>
 
-<p class="sys-img"><img src="/assets/img/interface.png" alt="Main screen of EvalLM shows three panels. The generation panel shows text boxes for the prompt and task instruction, and buttons for input sampling. The evaluation panel shows text boxes for the criteria, buttons for evaluating, and stacked bar charts for the evaluation results." /></p>
+<p><span class="sys-name">🔮 GenQuery</span> provides a similar interface to popular visual search tools like <a href="https://co.pinterest.com/">Pinterest</a>. The system provides a similar interface to popular visual search tools like Pinterest. Users can input a text query <span class="highlight">[a]</span> (text-based search) or click an image in the search results <span class="highlight">[b]</span> (image-based search) to find the visual images they want to see and save the desired images <span class="highlight">[c]</span>.</p>
 
-<p><b>Generation Panel</b>: To generate outputs, the user defines their overall <strong>task instruction</strong> (A), two <strong>prompts</strong> they want to compare (B), and then <strong>samples inputs</strong> from a dataset (C) which will be used to test the prompts.</p>
-
-<p><strong>Evaluation Panel</strong>: To evaluate outputs, the user defines a set of evaluation <strong><a href="#criteria" target="_self">criteria</a></strong> (D). Then, after evaluating, they can verify the overall <em>evaluation</em> performance of each prompt (E) or, if they created a validation set, <em>validate</em> how automatic evaluations align with ground-truth evaluations (F).</p>
-
-<p><strong>Data Panel</strong>: This panel shows <strong><a href="#datarow" target="_self">data rows</a></strong> containing inputs, outputs, and evaluation results.</p>
+<p>Beyond these basic features, <span class="sys-name">GenQuery</span> supports <strong><a href="#QC" target="_self">Query Concretization</a></strong> when the user writes a query in <span class="highlight">[a]</span>. Furthermore, when the user clicks <span class="highlight">[d]</span>, it also supports <strong><a href="#IM" target="_self">Image-based Image Modification</a></strong> and <strong><a href="#KM" target="_self">Keyword-based Image Modification</a></strong> to allow the user to find more intent-aligned or diversified images.</p>
 
 <p><br /></p>
 
-<h3 id="criteria"><span id="criteria">Criteria</span></h3>
+<h3 id="query-concretization-for-text-based-search"><span id="QC" class="sys-name">Query Concretization</span> for Text-based Search</h3>
 
-<p class="text-left"><span class="sys-name">EvalLM</span> allows users to evaluate outputs on their own criteria specific to their application and/or context.
-<br /><br />
-To define a criteria, the user simply provides the criteria with a <strong>name</strong> (A) and <strong>description</strong> (B) in natural language.
-<br /><br />
-To assist users in creating more effective and helpful criteria, the system automatically <strong>reviews</strong> their criteria (C) and provides <strong>suggestions</strong> (D) on how the criteria can be <em>refined</em>, <em>merged</em> and <em>split</em>.</p>
-
-<p class="img-right"><img src="/assets/img/criteria.png" alt="Criteria are represented as a set of text boxes that contain the name and description of the criteria. Suggested revisions are shown below the criteria." /></p>
+<p>Our formative study findings reveal that the visual search process is inefficient due to the user’s vague text query at the initial text-based search. To address this, we propose a <span class="sys-name">Query Concretization</span> interaction using LLM prompting in the visual search process.</p>
 
 <p><br /></p>
 
-<h3 id="data-row"><span id="datarow">Data Row</span></h3>
+<h3 id="image-based-image-modification-for-image-based-search"><span id="IM" class="sys-name">Image-based Image Modification</span> for Image-based Search</h3>
 
-<p class="sys-img"><img src="/assets/img/datarow.png" alt="Data Rows in the interface display inputs, output pairs, and evaluation results. Clicking on evaluation results opens a panel that shows the explanation for that evaluation underneath the row." /></p>
+<p>When users had concrete target images they wanted to look for in their minds, they wanted to use image modality to edit the following search queries in the image-based search. To support the user in finding a more intent-aligned search result, we propose <span class="sys-name">Image-based Image Modification</span> for the following visual search query.</p>
 
-<p>For each sampled <strong>input</strong> (A), the interface presents the <strong>outputs</strong> generated from each prompt side-by-side (B) and the <strong>evaluation results</strong> for each criteria next to the outputs (C). For each criteria, the evaluation results show which prompt produced the output that better satisfied that criteria.</p>
+<p><br /></p>
 
-<p>If the user wants to see more details, they can click on one of these evaluations to see the assistant’s <strong>explanation</strong> (D). To help the user match the explanation and outputs, the system also <strong>highlights</strong> spans from the outputs that were considered to be important when evaluating the criteria (E).</p>
+<h3 id="keyword-based-image-modification-for-image-based-search"><span id="KM" class="sys-name">Keyword-based Image Modification</span> for Image-based Search</h3>
 
-<p>If the user selected to evaluate outputs on multiple trials, they can see the evaluations for <strong>other trials</strong> through the carousel (F).</p>
-
-<hr />
-
-<h2 id="video-demo">Video Demo</h2>
-
-<p>See <span class="sys-name">EvalLM</span> in action in this Video Demo.</p>
-
-<div class="video-wrapper">
-  <iframe src="https://www.youtube-nocookie.com/embed/7hvTnhiCO7Y?si=6I9aqVnatM8VoaJd&amp;color=white&amp;rel=0&amp;modestlogo=1" id="yt-video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-</div>
+<p>One of the essential aspects of visual search is finding diversified and unexpected ideas as well as searching intent-aligned images. Our formative findings identified that the users tried to use text modality when they wanted to see more diversified and different images. Thus, we propose <span class="sys-name">Text-based Image Modification</span> interaction to help the divergent visual search phase.</p>
 
 <hr />
+
+<p>The three interactions of <span class="sys-name">🔮 GenQuery</span> allowed the user to express their intent intuitively and accurately so that the users find more satisfied, diversified, and creative ideas. If you want to see more details of the findings of our user study, please check our paper!</p>
 
 <h2 id="bibtex">Bibtex</h2>
 

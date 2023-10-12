@@ -24,7 +24,9 @@ description: "Supporting Expressive Visual Search with Generative Models"
 
 syscolor: "#6B48FF"
 sysfont: Assistant
-video: https://www.youtube-nocookie.com/embed/7hvTnhiCO7Y?si=6I9aqVnatM8VoaJd
+video_QC: https://youtu.be/8AhXwrU3WS4?si=tdU7Q55_YXL3ChDY
+video_IM: https://youtu.be/N-F3DsbE1fI?si=YYuKDP69zfGK9HiT
+video_KM: https://youtu.be/zJTqnCh8d2w?si=-vIMSjUHxgH-o6I_
 paper: https://arxiv.org/abs/2310.01287
 
 plugins:
