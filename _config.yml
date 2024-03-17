@@ -18,16 +18,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: GenQuery
+title: Demystifying Tacit Knowledge in Graphic Design
 theme: minima
-description: "Supporting Expressive Visual Search with Generative Models"
+description: "Characteristics, Instances, Approaches, and Guidelines"
 
-syscolor: "#6B48FF"
-sysfont: Assistant
+syscolor: "#0020C2"
+sysfont: Josefin Sans
 video_QC: https://youtu.be/8AhXwrU3WS4?si=tdU7Q55_YXL3ChDY
 video_IM: https://youtu.be/N-F3DsbE1fI?si=YYuKDP69zfGK9HiT
 video_KM: https://youtu.be/zJTqnCh8d2w?si=-vIMSjUHxgH-o6I_
-paper: https://arxiv.org/abs/2310.01287
+paper: https://arxiv.org/abs/2403.06252
 
 plugins:
   - jekyll-feed
