@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  font-family: 'Assistant', 'Outfit';
+  font-family: 'Assistant', 'Outfit', 'Ovo';
 }
 
 .wrapper {
@@ -238,12 +238,12 @@ pre {
 }
 
 .sys-name {
-  font-family: "Outfit";
+  font-family: "Ovo";
   font-weight: bold;
   color: {{site.syscolor}};
 }
 .highlight {
-  font-family: "Outfit";
+  font-family: "Ovo";
   font-weight: bold;
   color: #786bff;
 }

@@ -276,7 +276,7 @@ table td { border: 1px solid #e8e8e8; }
 
 html { scroll-behavior: smooth; }
 
-body { font-family: 'Assistant', 'Outfit'; }
+body { font-family: 'Assistant', 'Outfit', 'Ovo'; }
 
 .wrapper { max-width: calc(940px - (30px * 2)); }
 
@@ -348,9 +348,9 @@ pre { display: block; font-size: 14px; color: #333; word-break: break-all; word-
 
 .button-disabled:hover { text-decoration: none; color: #fff; }
 
-.sys-name { font-family: "Outfit"; font-weight: bold; color: #6B48FF; }
+.sys-name { font-family: "Ovo"; font-weight: bold; color: #6B48FF; }
 
-.highlight { font-family: "Outfit"; font-weight: bold; color: #786bff; }
+.highlight { font-family: "Ovo"; font-weight: bold; color: #786bff; }
 
 strong { font-weight: 500; }
 
