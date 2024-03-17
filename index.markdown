@@ -2,15 +2,33 @@
 layout: default
 ---
 
-<span class="sys-name">🔮 GenQuery</span> is an <span class="highlight">interactive visual search system</span> that allows the users to concretize the abstract text query <span class="highlight">[a]</span>, express search intent through visuals <span class="highlight">[b]</span>, and diversify their search intent based on the search history <span class="highlight">[c]</span>. Through the three main features, users can express their visual search intent easily and accurately and explore a more diverse and creative visual search space.
+<span class="highlight"> Abstract </span>
+<br/>
+Despite the growing demand for professional graphic design knowledge, the tacit nature of design inhibits knowledge sharing. However, there is a limited understanding on the characteristics and instances of tacit knowledge in graphic design. In this work, we build a comprehensive set of tacit knowledge characteristics through a literature review. Through interviews with 10 professional graphic designers, we collected 123 tacit knowledge instances and labeled their characteristics. By qualitatively coding the instances, we identified the prominent elements, actions, and purposes of tacit knowledge. To identify which instances have been addressed the least, we conducted a systematic literature review of prior system support to graphic design. By understanding the reasons for the lack of support on these instances based on their characteristics, we propose design guidelines for capturing and applying tacit knowledge in design tools. This work takes a step towards understanding tacit knowledge, and how this knowledge can be communicated.
+<br/>
 <br/>
 
 {: .sys-img}
-![Three main features of GenQuery: (1) Query concretization, (2) Image-based image modification, and (3) Keyword-based image modification feature. Query concretization concretizes the user's vague text query for the text-based search. Image-based image modification allows the user to select the area in an image (red dot line above) and to change the area of the image based on the reference image (purple mountain image). Keyword-based modification allows the user to change the selected area of an image (red dot line below) based on the keywords suggested from the user's search history. Both modification features' output could be utilized as an image-based search input and the results are changed due to the image modifications.](/assets/img/teaser.png)
+![Research overview. The diagram illustrates the overall research process of this work. Each research step is depicted, with specific sections marked corresponding to the description of each stage.](/assets/img/research_procedure.png)
+<br/>
+
+The diagram shows the overall research procedures with arrows. First, <span class="highlight">(a)</span> is a literature review process for collecting tacit knowledge characteristics. <span class="highlight">(b)</span> shows that the authors did an interview study with graphic design experts to collect the tacit knowledge instances. In the study, the designers also conducted an annotation task between the instances they mentioned and the characteristics set. <span class="highlight">(c)</span> is the open coding process to analyze the instance of the collected tacit knowledge. Then, the authors conducted a systematic literature review to investigate what type of instance is still uncovered at <span class="highlight">(d)</span>. Based on these series of research steps, this paper suggests the design guidelines for capturing and applying tacit knowledge at <span class="highlight">(e)</span>.
 
 ---
 
-## <span class="sys-name">Interface</span>
+## <span class="highlight">Compiling Characteristics of Tacit Knowledge Through a Literature Review</span>
+
+---
+
+## <span class="highlight">Interview Study with Professional Graphic Designers</span>
+
+---
+
+## <span class="highlight">Systematic Literature Review: Exploring Graphic Design Approaches</span>
+
+---
+
+## <span class="highlight">Design Guidelines for Capturing and Applying Tacit Design Knowledge</span>
 
 {: .sys-img}
 ![Interface of GenQuery. GenQuery shows the image search results as a gallery form. (a) Text prompt input box for text-based search: User can input a text description for the desired image here; (b) Clickable image for image-based search: An image in the gallery is clickable to provoke the image-based search. When the image is clicked, GenQuery shows similar images to the clicked one at the bottom of the gallery; (c) Like button: The user can click the like button to save the design into the side panel; (d) Generation button: To edit one of the searched images for generatin a new input, the user can click the marble emoji left top of image card. When the user clicks this button, the generation panel pops out below; (e) Show more button: This button is clicked when the user wants to see more search results.](/assets/img/interface.png)
@@ -56,11 +74,11 @@ The three interactions of <span class="sys-name">🔮 GenQuery</span> allowed th
 ## Bibtex
 
 <pre>
-@inproceedings{son2023genquery,
-      title={GenQuery: Supporting Expressive Visual Search with Generative Models}, 
-      author={Kihoon Son and DaEun Choi and Tae Soo Kim and Young-Ho Kim and Juho Kim},
-      year={2023},
-      eprint={2310.01287},
+@inproceedings{son2024demystifying,
+      title={Demystifying Tacit Knowledge in Graphic Design: Characteristics, Instances, Approaches, and Guidelines}, 
+      author={Kihoon Son and DaEun Choi and Tae Soo Kim and Juho Kim},
+      year={2024},
+      eprint={2403.06252},
       archivePrefix={arXiv},
       primaryClass={cs.HC}
 }
@@ -71,7 +89,3 @@ The three interactions of <span class="sys-name">🔮 GenQuery</span> allowed th
 {: .logos}
 [![Logo of KIXLAB](/assets/img/kixlab_logo.png)](https://kixlab.org)
 [![Logo of KAIST](/assets/img/kaist_logo.png)](https://kaist.ac.kr)
-[![Logo of NAVER](/assets/img/naver_logo.png)](https://www.facebook.com/NAVERAILAB)
-
-{: .center .acknowledgement}
-This research was supported by the **KAIST-NAVER Hypercreative AI Center**.
