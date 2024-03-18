@@ -9,6 +9,8 @@ html {
 
 body {
   font-family: 'Assistant', 'Josefin Sans';
+  background-color: #FFFFFF;
+    /* Light Blue */
 }
 
 .wrapper {
@@ -249,6 +251,16 @@ pre {
   font-family: {{site.sysfont}};
   font-weight: normal;
   color: {{site.syscolor}};
+}
+
+.highlight2 {
+  font-family: {{site.sysfont}};
+  font-weight: bolder;
+  color: {{site.syscolor}};
+}
+
+.lacking {
+  color: #811515;
 }
 
 strong {

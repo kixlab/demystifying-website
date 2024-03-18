@@ -276,7 +276,7 @@ table td { border: 1px solid #e8e8e8; }
 
 html { scroll-behavior: smooth; }
 
-body { font-family: 'Assistant', 'Josefin Sans'; }
+body { font-family: 'Assistant', 'Josefin Sans'; background-color: #FFFFFF; /* Light Blue */ }
 
 .wrapper { max-width: calc(940px - (30px * 2)); }
 
@@ -353,6 +353,10 @@ pre { display: block; font-size: 14px; color: #333; word-break: break-all; word-
 .sys-name { font-family: Josefin Sans; font-weight: normal; color: #0020C2; }
 
 .highlight { font-family: Josefin Sans; font-weight: normal; color: #0020C2; }
+
+.highlight2 { font-family: Josefin Sans; font-weight: bolder; color: #0020C2; }
+
+.lacking { color: #811515; }
 
 strong { font-weight: 500; }
 
