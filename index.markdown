@@ -144,4 +144,4 @@ The three interactions of <span class="sys-name">🔮 GenQuery</span> allowed th
 [![Logo of KAIST](/assets/img/kaist_logo.png)](https://kaist.ac.kr)
 
 {: .center .acknowledgement}
-This work was supported by Institute of Information & Communications Technology Planning & Evaluation (IITP) grant funded by the Korea government (MSIT) (No.2021-0-01347,Video Interaction Technologies Using Object-Oriented Video Modeling and No.2019-0-00075, Artificial Intelligence Graduate School Program(KAIST)).
+This work was supported by Institute of Information & Communications Technology Planning & Evaluation (IITP) grant funded by the Korea government (MSIT) (No.2021-0-01347, Video Interaction Technologies Using Object-Oriented Video Modeling and No.2019-0-00075, Artificial Intelligence Graduate School Program(KAIST)).
